@@ -1,20 +1,13 @@
 pragma solidity ^0.8.12;
 
-import "@openzeppelin/contracts/utils/Strings.sol";
-
 contract Voting {
 
-    address payable owner; // contract creator's address
-
+    address payable owner; 
+    
     constructor() {
-        owner = payable(msg.sender); // setting the contract creator
-    }
+        owner = payable(msg.sender); 
 
     mapping (address => uint) public voteCount;
-
-    function viewContractBalance() public view returns(uint)    {
-        return address(this).balance;
-    }
 
     function accept() public payable {
         
