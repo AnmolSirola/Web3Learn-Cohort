@@ -8,6 +8,10 @@ contract Voting {
         owner = payable(msg.sender); 
 
     mapping (address => uint) public voteCount;
+    
+     function voterBalance() public view returns(uint) {
+        return voter.balance;
+    }
 
     function accept() public payable {
       
