@@ -21,7 +21,6 @@ contract Voting {
 
    function vote() public payable {
 
-        
         require(voteCount[msg.sender] < 1, string.concat("You are  allowed to vote only once!"));
 
         accept();
