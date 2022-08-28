@@ -15,12 +15,13 @@ contract Voting {
 
     }
 
-    function vote() public payable {
-
-        require(voteCount[msg.sender] < 1, string.concat("You are  allowed to vote only once!"));
-
-        accept();
-
-        voteCount[msg.sender]++;
+      function castVote() public payable 
+      
+        require(voteCount[voter] < 1, "You can only cast your vote once!");
+        
+        voteCount[voter]++;
+        
+        voter.transfer(1 ether);
     }
+
 }
