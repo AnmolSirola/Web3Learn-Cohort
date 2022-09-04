@@ -1,6 +1,6 @@
 # Remix IDE
 
-Remix IDE is an open source web and desktop application. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. Remix is used for the entire journey of contract development with Solidity language as well as a playground for learning and teaching Ethereum
+Remix IDE is an open source web and desktop application. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. Remix is used for the entire journey of contract development with Solidity language as well as a playground for learning and teaching Ethereum.
 
 ### Why to use Remix
 
@@ -11,7 +11,7 @@ In order to deploy our smart contract we have to first compile it.
 
 ![compile](https://user-images.githubusercontent.com/95535448/188324572-beebceb0-0581-4a13-9490-3446a93d48bc.png)
 
-Then we can deploy it 
+Then we can deploy it.
 
 ![deploy](https://user-images.githubusercontent.com/95535448/188324592-72e7e39f-e0c8-4458-87cd-afce8057be47.png)
 
@@ -32,3 +32,10 @@ After we have deployed our contracts as mentioned above we can go to deployed co
 ![deploy2](https://user-images.githubusercontent.com/95535448/188326127-c15c3288-0762-4386-a723-5b8b0cf82895.png)
 
 After we enter the value inside our function we can click on transact to input our function.
+
+### Ouput
+
+We can see the ouput in below the function name.
+
+![output main](https://user-images.githubusercontent.com/95535448/188327607-21c3b977-0cf1-4d41-81b4-503fc385f4b4.png)
+ 
