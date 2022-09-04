@@ -35,7 +35,7 @@ After we enter the value inside our function we can click on transact to input o
 
 ### Ouput
 
-We can see the ouput in below the function name.
+We can see the ouput below the function name.
 
 ![output main](https://user-images.githubusercontent.com/95535448/188327607-21c3b977-0cf1-4d41-81b4-503fc385f4b4.png)
  
