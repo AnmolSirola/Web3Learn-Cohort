@@ -37,6 +37,20 @@ MetaMask is a software cryptocurrency wallet used to interact with the Ethereum 
 
 https://user-images.githubusercontent.com/95535448/188405621-888573cf-ae1b-4a90-8abd-01a91a19e8fa.mp4
 
+### Getting Testnet Ethers
+- You can get free testnet ether from https://faucets.chain.link/
+- You can get these ether for any network like rinkeby, gorli, kovan and polygon mumbai etc.
+- You can select the network of your choice and then click on **connect wallet**. 
+- Your metamask will pop up and then click on **Connect** and choose an account in which you want your ethers. 
+- The website will automatically take your account address and it will autofill rest of the things too
+- All you have to do is click on **Send Request**.
+- It will take some time after the send request is complete then u will see few ethers in your metamask account.
+
+
+https://user-images.githubusercontent.com/95535448/188409466-8a2b0283-3568-4453-877b-b38bf019e451.mp4
+
+
+
 
 
 
