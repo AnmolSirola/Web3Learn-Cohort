@@ -2,7 +2,7 @@
 
 Remix IDE is an open source web and desktop application. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. Remix is used for the entire journey of contract development with Solidity language as well as a playground for learning and teaching Ethereum.
 
-You can learn everything about Remix from here:- 
+You can learn everything about Remix from here:- How to use remix.ide.md
 
 ### Ganache 
 Ganache is a private Ethereum blockchain environment that allows to you emulate the Ethereum blockchain so that you can interact with smart contracts in your own private blockchain. Here are some features that Ganache provides:-
