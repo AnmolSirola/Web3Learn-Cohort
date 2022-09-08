@@ -6,7 +6,7 @@ Blockchain is a shared, immutable ledger that facilitates the process of recordi
 
 ![BlockChain_System](https://user-images.githubusercontent.com/95535448/189102134-4b8ed715-9773-46ed-8e59-b232832e432f.jpg)
 
-### Pre-requisite Skills Required to learn Blockchain
+### Pre-requisite Skills Required to learn Blockchain :-
 
 1) Programming Language :- Having knowlegde of programming languages like Java, C++ and C  etc , will help you learn and understand the programming language used in development of blockchain. If you already know a programming language it will be easier for you to learn new language for blockchain and you will grasp the fundamentals more clearly and fast.
 
@@ -15,3 +15,15 @@ Blockchain is a shared, immutable ledger that facilitates the process of recordi
 3) Front-End Development :- Web3 is based on web2 only , the front-end part remains the same only the backend changes . We need a front-end to interact the backend of our dapp (decentrailsed application ) or website. So basically we should have knowlegde of html css and javascipt for it .
 
 4) Framework :- It is not mandatory but it is good to know a framework like React.js, Next.js or Angular.js . As these framework allow us to improve the UI and apprearenace of our website. 
+
+
+![web2 to web3](https://user-images.githubusercontent.com/95535448/189154122-2a1be999-38c3-4b49-9385-9a4741e556dc.jpg)
+
+
+
+### Web3 TechStack :-
+
+1) Selecting the Chain you are working on :- There are many blockchains, the two most famous and in demand are **Ethereum** and **Solana**. According to many stats
+ethereum has more market cap and has bigger developer community, so here we will be talking about.
+
+2) Building Smart Contracts:- We need to know about Solidity to learn ethereum development as it is one of the most important and famous programming language. Smart contracts are simply programs stored on a blockchain that run when predetermined conditions are met. With the help of Solidity we will be able to write smart contracts which is the backend of our program.
