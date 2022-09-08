@@ -28,4 +28,4 @@ ethereum has more market cap and has bigger developer community, so here we will
 
 2) Writing Smart Contracts:- We need to know about Solidity to learn ethereum development as it is one of the most important and famous programming language. Smart contracts are simply programs stored on a blockchain that run when predetermined conditions are met. With the help of Solidity we will be able to write smart contracts which is the backend of our program.
 
-3) 
+3) Testing and Installing Dependencies:- Before we deploy our smart contracts to the mainnet we need to test them, we can test them with the help of **javascript** . To be specific we can use javascript test framework like mocha and chai
