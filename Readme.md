@@ -12,4 +12,6 @@ Blockchain is a shared, immutable ledger that facilitates the process of recordi
 
 2) Object-Oriented Programming :- Object-oriented programming (OOPs) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. Oops reduce development time because you can reuse code and develop models based on previous objects, allows u to write clean code and gives an effective problem solving.
 
-3) Front-End Development :- Web3 is based on web2 only , the front-end part remains the same only the backend changes . We need to a front-end to interact the backend of our dapp (decentrailsed application ) or website
+3) Front-End Development :- Web3 is based on web2 only , the front-end part remains the same only the backend changes . We need a front-end to interact the backend of our dapp (decentrailsed application ) or website. So basically we should have knowlegde of html css and javascipt for it .
+
+4) Framework :- It is not mandatory but it is good to know a framework like React.js, Next.js or Angular.js . As these framework allow us to improve the UI and apprearenace of our website. 
