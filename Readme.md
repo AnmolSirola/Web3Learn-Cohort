@@ -24,8 +24,12 @@ Blockchain is a shared, immutable ledger that facilitates the process of recordi
 ### Web3 TechStack :-
 
 1) Selecting the Chain you are working on :- There are many blockchains, the two most famous and in demand are **Ethereum** and **Solana**. According to many stats
-ethereum has more market cap and has bigger developer community, so here we will be talking about.
+ethereum has more market cap and has bigger developer community, so here we will be talking about Solidity only.
 
 2) Writing Smart Contracts:- We need to know about Solidity to learn ethereum development as it is one of the most important and famous programming language. Smart contracts are simply programs stored on a blockchain that run when predetermined conditions are met. With the help of Solidity we will be able to write smart contracts which is the backend of our program.
 
-3) Testing and Installing Dependencies:- Before we deploy our smart contracts to the mainnet we need to test them, we can test them with the help of **javascript** . To be specific we can use javascript test framework like mocha and chai
+3) Testing and Installing Dependencies:- Before we deploy our smart contracts to the mainnet we need to test them, we can test them with the help of **javascript** . To be specific we can use javascript test framework like mocha and chai . Also we need knowlegde of node.js which helps in our project as Javascript Backend for Dependencies.
+
+4) Contract Framework:- We need an framework for Compiling, Testing and to Deploy our contracts on any IDE. The most two popular contract framework are:-
+- HardHat:- It's a flexible and extensible task runner that helps you manage and automate the recurring tasks inherent to developing smart contracts and dApps. It also helps 
+- Truffle:-
