@@ -51,6 +51,12 @@ ethereum has more market cap and has bigger developer community, so here we will
 
 ### Flow Diagram 
 
-![flowchart](https://user-images.githubusercontent.com/95535448/189205837-98ee79c0-e2e4-4e18-aaf4-2bc312e9bb2e.png)
 
+![flowflow](https://user-images.githubusercontent.com/95535448/189206401-12043244-b4eb-4d65-b363-222eb117b4d5.png)
+
+
+### Conclusion 
+Web3 has the potential to change the world.
+
+### Reference 
 
