@@ -32,17 +32,25 @@ ethereum has more market cap and has bigger developer community, so here we will
 
 3) Testing and Installing Dependencies:- Before we deploy our smart contracts to the mainnet we need to test them, we can test them with the help of **javascript** . To be specific we can use javascript test framework like **mocha** and **chai** . Also we need knowlegde of **node.js** which helps in our project as Javascript Backend for **Dependencies**.
 
-4) Contract Framework:- We need an framework for Compiling, Testing and to Deploy our contracts on any IDE. The most two popular contract framework are:-
+4) Using Metamask:-
+
+5) Contract Framework:- We need an framework for Compiling, Testing and to Deploy our contracts on any IDE. The most two popular contract framework are:-
 - **HardHat**:- It's a flexible and extensible task runner that helps you manage and automate the recurring tasks inherent to developing smart contracts and dApps. It also helps 
 - **Truffle**:-
 
-5) JavaScript libraries that enable frontend apps to interacttion :- sadsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 👎
+6) JavaScript libraries that enable frontend apps to interacttion :- sadsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 👎
 - **Ether.js**:-
 - **Web3.js**:-
 
-6) React.js (Javascript Framework for Frontend Dapps)- 
+7) React.js (Javascript Framework for Frontend Dapps)- 
 
 
 
-7)  Moralis (APIs, Indexing, Boilerplates, Best Documentation Hands Down)
+8)  Moralis (APIs, Indexing, Boilerplates, Best Documentation Hands Down)
+
+
+### Flow Diagram 
+
+![flowchart](https://user-images.githubusercontent.com/95535448/189205837-98ee79c0-e2e4-4e18-aaf4-2bc312e9bb2e.png)
+
 
