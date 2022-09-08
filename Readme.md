@@ -26,4 +26,6 @@ Blockchain is a shared, immutable ledger that facilitates the process of recordi
 1) Selecting the Chain you are working on :- There are many blockchains, the two most famous and in demand are **Ethereum** and **Solana**. According to many stats
 ethereum has more market cap and has bigger developer community, so here we will be talking about.
 
-2) Building Smart Contracts:- We need to know about Solidity to learn ethereum development as it is one of the most important and famous programming language. Smart contracts are simply programs stored on a blockchain that run when predetermined conditions are met. With the help of Solidity we will be able to write smart contracts which is the backend of our program.
+2) Writing Smart Contracts:- We need to know about Solidity to learn ethereum development as it is one of the most important and famous programming language. Smart contracts are simply programs stored on a blockchain that run when predetermined conditions are met. With the help of Solidity we will be able to write smart contracts which is the backend of our program.
+
+3) 
