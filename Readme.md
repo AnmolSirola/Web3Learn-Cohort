@@ -66,7 +66,7 @@ The Truffle Suite also includes Ganache, which helps in testing Solidity contrac
 
 
 ### Conclusion 
-**Web3 has the potential to change the world**,The developments in the world of web3 have proved how successful web3 will be in the future. Most important of all, the assurance of decentralization, data privacy, and control over digital identities can also serve as crucial advantages for internet users. Soon the concept of decentralizaion will applied to everything from banking to social media , from E- voting to charity all these things may be decentralized in the future. 
+**Web3 has the potential to change the world**, The developments in the world of web3 have proved how successful web3 will be in the future. Most important of all, the assurance of decentralization, data privacy, and control over digital identities can also serve as crucial advantages for internet users. Soon the concept of decentralizaion will applied to everything from banking to social media , from E- voting to charity all these things may be decentralized in the future. 
 
 ### Reference 
 - https://www.quicknode.com/guides/web3-sdks/the-web3-developer-stack
