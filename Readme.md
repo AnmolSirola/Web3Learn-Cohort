@@ -1,4 +1,4 @@
 Web3Learn Cohort Contracts:-
-i) Voting Contract 
-ii) ERC 721
-iii) My 721 Token
+- Voting Contract 
+- ERC 721
+- My 721 Token
