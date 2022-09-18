@@ -1,13 +1,14 @@
-//SPDX-License-Identifier:MIT
-pragma solidity ^0.8.7;
+//SPDX-License-Identifier:UNLICENSED
+pragma solidity ^0.8.8;
 
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Counters.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
+
 import "hardhat/console.sol";
 
-interface IYT{
+interface dapp{
     function transfer(address to, uint256 amount) external returns (bool) ;
     function balanceOf(address account) external view  returns (uint256);
 }
@@ -17,13 +18,13 @@ contract my721Token is ERC721, Ownable {
     uint mintedNFTs = 0;
     
 
-    IYT public ERC20contractAddress;
+    dapp public ERC20contractAddress;
 
 
     mapping(uint => address) public NFTowners;
     mapping(address => uint) public numberOfNFT;
 
-    constructor() ERC721("Vaithi", "YT") {}
+    constructor() ERC721("Anmol", "dai") {}
 
     function safeMint(address to, uint256 tokenId) external onlyOwner {
         require(numberOfNFT[to] < 1, "Only one NFT for one address");
@@ -35,16 +36,16 @@ contract my721Token is ERC721, Ownable {
     }
 
     function updateContractAddress(address contractAddress) public onlyOwner{
-        ERC20contractAddress = IYT(contractAddress);
+        ERC20contractAddress = dapp(contractAddress);
     }
 
 
     function balanceOfERC20(address NFTownerAddressses) public view returns (uint256){
-        return (IYT(ERC20contractAddress).balanceOf(NFTownerAddressses));
+        return (dapp(ERC20contractAddress).balanceOf(NFTownerAddressses));
     }
 
     function ERC20inERC721() public view returns(uint256){
-        return(IYT(ERC20contractAddress)).balanceOf(address(this));
+        return(dapp(ERC20contractAddress)).balanceOf(address(this));
        
     }
 
@@ -52,14 +53,14 @@ contract my721Token is ERC721, Ownable {
         require(NFTsMinted == 5, "All NFT's must be minted first");
         for (uint i = 1; i <= NFTsMinted; i++) {
             console.log(NFTowners[i]);
-            IYT(ERC20contractAddress).transfer(NFTowners[i] , 10);
+            dapp(ERC20contractAddress).transfer(NFTowners[i] , 10);
           
         }
     } 
 }
 
 contract ERC20token is ERC20 {
-    constructor() ERC20("Vaithii", "YT") {
+    constructor() ERC20("Anmol", "Dai") {
         _mint(msg.sender, 1000);
     }
 
